@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+
+        .x {
+
+            height: 200px;
+            width: 150px;
+            background-color: lightsalmon;
+            margin: 30px auto;
+            transform: rotate(60deg);
+        }
+        .y { transform: scale(1);
+        }
+        .y:hover { /* transform: scale(1.5); transition: 1sec; */
+        
+            transform: translate(200px,0) scale(0.5) rotate(40deg);
+        }
+
+        .c { transform: translate(100px,100px);}
+    </style>
+</head>
+<body>
+    <div class="x">Krishna</div>
+    <div class="x y">Krishna</div>
+
+    <div class="x c"> KRISHNA</div>
+</body>
+</html>
